@@ -1,0 +1,29 @@
+#flex-container{
+    display: flex;
+    width: 100%;
+    border: 1px solid black;
+    height: 30%;
+}
+#column{
+    margin: 20px;
+    width: 80%;
+    padding-top: 40px;
+    background-color: lightblue;
+    text-align: center;
+}
+#box{
+    background-color: lightblue;
+    text-align: center;
+    width: 80%;
+    height: 20%;
+    margin: 50px;
+    padding-top: 15px;
+
+}
+#flex-container2{
+    align-items: center;
+    border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    display: flex;
+}
