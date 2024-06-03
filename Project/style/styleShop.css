@@ -20,8 +20,7 @@ header {
 #navbar {
     padding-top: 15px;
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    width: 80%;
 }
 
 #navbar a {
@@ -42,6 +41,7 @@ header {
 }
 
 #leftNav {
+    margin-left: 250px;
     display: flex;
     font-weight: 400;
 }
@@ -62,6 +62,48 @@ header {
 #navbar i {
     margin-top: 2px;
     margin-right: 2px;
+}
+#shoppingBag{
+    position: absolute;
+    left: -45px;
+    top: -15px;
+    font-size: 24px;
+}
+#shoppingBag:hover{
+    cursor: pointer;
+    color: green;
+
+}
+#loop{
+    display: flex;
+    position: absolute;
+    top:25px;
+    right: 37px;
+    width: 100%;
+}
+#loop input{
+    width: 100%;
+    outline: 0;
+    border:0;
+    border-radius: 5px;
+}
+#loop i{
+    font-size: 22px;
+    margin-left: 5px;
+    font-size: darkgray;
+}
+#loop:hover{
+    background-color:lightgray;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+#loop input:hover{
+    background-color:lightgray;
+    border-radius: 25px;
+    transition: 0.3s;
+}
+#loop input:focus{
+    background-color:lightgray;
 }
 
 /*popup LOGIN*/
