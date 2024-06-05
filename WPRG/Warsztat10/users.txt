@@ -1,0 +1,2 @@
+mail@mail.pl|zaq1!Z123|imie|haslo
+luki@luki.pl|zaq1!Z123|imie|nazwisko
